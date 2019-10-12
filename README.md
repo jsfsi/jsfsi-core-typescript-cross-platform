@@ -1,15 +1,6 @@
-# Rest Service
+# JSFSI Core Typescript Cross Platform
 
-Mono repo to be used as a system implementation bootstrap.
-It contains the following technologies:
-
-- eslint for typescript linting
-- prettier to apply eslint rules automatically
-- lerna for configuring the monorepo
-- typescript as the preferable language for implementation. This doesn't mean other languages can not be used.
-- nodejs for backend implementation
-- reactjs for frontend implementation
-- react-native for cross-platform mobile implementation
+Typescript libraries cross platform for jsfsi developments
 
 ## Requirements
 

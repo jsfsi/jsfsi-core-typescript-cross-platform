@@ -18,7 +18,8 @@
   },
   "keywords": [
     "jsfsi",
-    "core"
+    "core",
+    "cross-platform"
   ],
   "author": "JSFSI <joao.franco@jsfsi.com>",
   "license": "ISC",
