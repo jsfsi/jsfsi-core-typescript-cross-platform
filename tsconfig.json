@@ -4,8 +4,7 @@
     "target": "es6",
     "module": "commonjs",
     "pretty": true,
-    "allowJs": true,
-    "sourceMap": true,
+    "allowJs": false,
     "removeComments": false,
     "importHelpers": true,
     "outDir": "./dist",
@@ -30,7 +29,9 @@
       {
         "name": "typescript-tslint-plugin"
       }
-    ]
+    ],
+    "declaration": true,
+    "declarationMap": true
   },
   "exclude": [
     "node_modules",

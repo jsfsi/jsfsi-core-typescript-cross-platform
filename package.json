@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Typescript libraries cross platform to support jsfsi developments",
   "main": "./dist/src",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "clean": "npm run clean:build; rm -rf node_modules",
     "clean:build": "rm -rf dist",
