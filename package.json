@@ -8,7 +8,8 @@
     "clean:build": "rm -rf dist",
     "setup": "npm run clean && npm install",
     "lint": "eslint . --quiet --fix --ext .ts,.tsx",
-    "build": "npm run clean:build && npm run lint && tsc"
+    "build": "npm run clean:build && npm run lint && tsc",
+    "postinstall": "npm run clean:build && tsc"
   },
   "repository": {
     "type": "git",
