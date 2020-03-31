@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-explicit-any: 0 */
 import axios, { AxiosError } from 'axios'
 import { HttpMethods } from './HttpMethods'
 import { HttpResponse } from './HttpResponse'
@@ -137,7 +138,7 @@ export class HttpRequest {
     ): Promise<HttpResponse<T>> {
         // NOTE: required for method overload
         const requestWithCredentials =
-            data !== undefined && typeof data === 'boolean' && withCredentials === undefined ? data : withCredentials
+            typeof data === 'boolean' && withCredentials === undefined ? data : withCredentials
 
         const transformedLink = HttpRequest.transformRequest(link)
         try {
@@ -146,7 +147,7 @@ export class HttpRequest {
         } catch (error) {
             let httpRequestError
 
-            if ((error as AxiosError).response) {
+            if ((error as AxiosError)?.response) {
                 httpRequestError = new HttpRequestError(
                     error.response.status,
                     error.response.data,

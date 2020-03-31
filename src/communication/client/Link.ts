@@ -1,9 +1,12 @@
 import { HttpMethods } from './HttpMethods'
 
-export interface Link {
-    name?: string
+export interface Link<T = { [key: string]: string }> {
+    rel?: string
+    target?: string
     method: HttpMethods
     href: string
     headers?: { [key: string]: string }
-    templated?: boolean
+    isUrlTemplate?: boolean
+    authRequired?: boolean
+    template?: T
 }
