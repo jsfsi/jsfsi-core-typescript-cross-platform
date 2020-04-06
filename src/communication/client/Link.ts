@@ -1,6 +1,7 @@
 import { HttpMethods } from './HttpMethods'
 
-export interface Link<T = { [key: string]: string }> {
+// NOTE: required to be a class so it can be easily instatiated
+export class Link<T = { [key: string]: string }> {
     rel?: string
     target?: string
     method: HttpMethods
