@@ -12,10 +12,4 @@ export class Link<T = { [key: string]: string }> {
     template?: T
 }
 
-export class SimpleHateoasRule {
-    constructor(private _link: Link) {}
-
-    public get link(): Link {
-        return this._link
-    }
-}
+export class SimpleHateoasRule extends Link {}
