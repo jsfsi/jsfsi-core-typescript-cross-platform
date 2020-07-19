@@ -11,3 +11,11 @@ export class Link<T = { [key: string]: string }> {
     authRequired?: boolean
     template?: T
 }
+
+export class SimpleHateoasRule {
+    constructor(private _link: Link) {}
+
+    public get link(): Link {
+        return this._link
+    }
+}
