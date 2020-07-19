@@ -22,5 +22,3 @@ export class Link<T = { [key: string]: string }> {
         this.template = link.template
     }
 }
-
-export class SimpleHateoasRule extends Link {}
