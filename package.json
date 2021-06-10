@@ -28,19 +28,18 @@
     "setup": "npm run clean && npm install"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "axios": "^0.21.1",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-security-node": "^1.0.14",
-    "eslint-plugin-unused-imports": "^1.1.1",
-    "json-schema": "^0.2.5",
-    "typescript": "^3.7.3"
+    "@typescript-eslint/eslint-plugin": "4.26.1",
+    "@typescript-eslint/parser": "4.26.1",
+    "axios": "0.21.1",
+    "eslint": "7.28.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-security-node": "1.0.14",
+    "eslint-plugin-unused-imports": "1.1.1",
+    "typescript": "4.3.2"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "2.3.1"
   }
 }
