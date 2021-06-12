@@ -2,11 +2,17 @@
 
 Typescript libraries cross platform for jsfsi developments
 
+# Usage
+
+```sh
+npm install @jsfsi-core/typescript-cross-platform
+```
+
 ## Requirements
 
 ### Visual Studio Code latest
 
-### NodeJS 12.11.1
+### NodeJS 16.3.0
 
 #### NodeJS Installation
 
@@ -15,7 +21,7 @@ Typescript libraries cross platform for jsfsi developments
 ```sh
 brew install node
 sudo npm install -g n
-sudo n 12.11.1
+sudo n 16.3.0
 ```
 
 ## Setup project
