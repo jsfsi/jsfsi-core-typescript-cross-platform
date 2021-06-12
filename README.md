@@ -57,5 +57,6 @@ npm install --save ssh://git@github.com:joaosousafranco/jsfsi-core-typescript-cr
 ```sh
 npm login
 npm run build
-npm run publish
+git tag <semantic version>
+npm publish --access public
 ```
