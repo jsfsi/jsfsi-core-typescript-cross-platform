@@ -2,7 +2,7 @@
 
 Typescript libraries cross platform for jsfsi developments
 
-# Usage
+## Usage
 
 ```sh
 npm install @jsfsi-core/typescript-cross-platform
