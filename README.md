@@ -51,3 +51,11 @@ npm install --save-dev <package_name>
 ```sh
 npm install --save ssh://git@github.com:joaosousafranco/jsfsi-core-typescript-cross-platform.git
 ```
+
+## Publish to npm
+
+```sh
+npm login
+npm run build
+npm run publish
+```
