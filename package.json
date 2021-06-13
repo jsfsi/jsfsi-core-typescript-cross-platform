@@ -1,6 +1,6 @@
 {
   "name": "@jsfsi-core/typescript-cross-platform",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Typescript libraries cross platform to support jsfsi developments",
   "keywords": [
     "core",
@@ -27,7 +27,7 @@
     "clean": "npm run clean:build; rm -rf node_modules",
     "clean:build": "rm -rf dist",
     "lint": "eslint . --quiet --fix --ext .ts,.tsx",
-    "prepublishOnly": "npm run clean:build && tsc",
+    "prepublishOnly": "npm run build && npm run test",
     "setup": "npm run clean && npm install"
   },
   "dependencies": {
