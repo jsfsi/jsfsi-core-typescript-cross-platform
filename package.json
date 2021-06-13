@@ -27,7 +27,7 @@
     "clean": "npm run clean:build; rm -rf node_modules",
     "clean:build": "rm -rf dist",
     "lint": "eslint . --quiet --fix --ext .ts,.tsx",
-    "prepublishOnly": "npm run build && npm run test",
+    "prepublishOnly": "npm run build",
     "setup": "npm run clean && npm install"
   },
   "dependencies": {
