@@ -1,6 +1,6 @@
 {
   "name": "@jsfsi-core/typescript-cross-platform",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Typescript libraries cross platform to support jsfsi developments",
   "keywords": [
     "core",
